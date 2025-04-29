@@ -1,0 +1,515 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#containers {
+    min-height: 150px;
+    width: 100%;
+    background-color: #e0eee0;
+}
+
+.header {
+    height: 30px;
+    width: 100%;
+    background: #5d478b;
+}
+
+img.mySlider {
+    margin-left: 200px;
+    margin-bottom: -17px;
+}
+
+.menu {
+
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+
+    background-size: 100%;
+    background-color:#e0eee0;
+}
+
+#main {
+
+    height: auto;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+
+.footer {
+
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+    background: rgb(199, 65, 105);
+
+}
+
+ul.list_header {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin: 0 auto;
+}
+
+ul.list_header li {
+    margin-top: -10px;
+    padding: 19px;
+    display: flex;
+    float: right;
+    line-height: 5px;
+    
+
+}
+
+ul.list_header li a {
+    text-decoration: none;
+    text-align: center;
+    color:#fff ;
+    font-size: 17px;
+}
+
+ul.list_header li a:hover {
+    color: rgb(255, 115, 0);
+}
+
+ul.list_menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 40%;
+    margin: 0 auto;
+}
+
+ul.list_menu li {
+    float: left;
+    margin: 8px;
+    margin-left: 19px;
+    padding: 5px;
+    animation: searchModal ease-in 0.3s;
+    display: flex;
+    margin-top: -10px;
+}
+
+ul.list_menu li a:hover {
+    color: rgb(255, 115, 0);
+
+}
+
+ul.list_menu li a {
+    text-decoration: none;
+    text-align: center;
+    color: #0a00a2;
+    font-size: 19px;
+}
+
+ul.product_list {
+    padding: 0 15px;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul.product_list li {
+    width: calc(100% / 4);
+    background-color: rgb(236 236 236);
+    border: 2px;
+    display: block;
+    height: auto;
+    border-radius: 5px;
+}
+ul.product_list li:nth-of-type(3n){
+    margin-right: 0 !important;
+}
+
+.carousel-item {
+    object-fit: cover;
+}
+
+ul.product_list li img {
+    width: 100%;
+    height: 350px;
+    border-radius: 2px;
+    object-fit: cover;
+
+}
+
+ul.product_list li a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.sidebar {
+
+    height: 550px;
+    width: 100%;
+
+}
+
+p.ten_sp {
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+p.gia_sp {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: line-through;
+}
+
+p.giamgia_sp {
+    color: #f00;
+    font-size: 18px;
+    margin: auto;
+    padding: 6px;
+
+}
+
+p.title_product {
+    color: #000;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    margin-top: 28px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.the_h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.maincontent {
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    float: right;
+
+    background-color: #f5f5f5;
+    margin-right: -7px;
+
+}
+
+.clear {
+    clear: both;
+
+}
+
+p.footer_copy {
+    text-align: center;
+    text-decoration: none;
+}
+
+.carousel-inner img {
+    height: 550px;
+    margin-top: -1px;
+    width: 100%;
+}
+
+#mains {
+
+    height: auto;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+.sidebar_left {
+
+    height: 700px;
+    width: 20%;
+    margin: 2px;
+    background-color: #000066;
+    float: left;
+
+}
+
+.sidebar-right {
+
+    height: 700px;
+    width: 79%;
+    margin: 2px;
+
+    background-color: #e40d78;
+    float: right;
+
+}
+
+.tomtat_tintuc {
+    width: 40%;
+    height: auto;
+    border: solid;
+    float: right;
+}
+
+.product_lists {
+    border: solid 1px #ccc;
+    list-style: none;
+    height: 280px;
+    width: 90%;
+    background-color: #fff;
+    padding: 5px;
+    margin: 20px;
+    margin-left: 68px;
+    border-radius: 5px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.tomtat_sanpham {
+    margin: 10px;
+    font-size: 17px;
+}
+
+h2.title_products {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.title_products:hover {
+    color: red;
+}
+
+.danhmuc_baiviet {
+    border: solid 1px #ccc;
+    width: 30%;
+}
+
+a.giohang_css {
+    float: right;
+    margin-right: 349px;
+    margin-top: -35px;
+    padding: 5px;
+    position: relative;
+}
+
+a.giohang_css>span {
+    bottom: 22px;
+    right: -18px;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #b7b7ec;
+    color: #ff1313;
+    padding: 3px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 132px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: rgb(27, 57, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: rgb(218, 218, 218);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #b7b7ec;
+}
+
+.mt1 {
+    list-style: none;
+}
+
+ul.mt1 a {
+    color: black;
+    text-decoration: none;
+}
+
+/* ==========================================
+    FOR DEMO PURPOSE
+  ========================================== */
+body {
+    background: #2a2e32;
+}
+
+.text-small {
+    font-size: 0.9rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.form-control {
+    background: #212529;
+    border-color: #545454;
+}
+
+.form-control:focus {
+    background: #212529;
+}
+
+footer {
+    background: #4a336e;
+}
+
+
+/* ==========================================
+      CUSTOM UTILS CLASSES
+    ========================================== */
+body,
+html {
+    height: 100%;
+}
+
+ul.list-unstyled.text-muted a {
+    color: #f3bfbf;
+    text-decoration: none;
+}
+
+
+
+.khoi {
+
+    width: auto;
+    position: relative;
+    overflow: hidden;
+     color :#000;
+}
+
+
+.khoi img {
+    width: 100%;
+}
+
+
+
+
+.khoi:hover .khoi3 {
+    top: 0%;
+    height: 100%;
+}
+
+.khoi3 {
+    width: 50px;
+    position: absolute;
+    top: -99%;
+    left: 0;
+    background-color: transparent;
+    transition: all .5s;
+    
+
+}
+
+.khoi3.khoi2 {
+    display: flex;
+    
+}
+
+.khoi3 button {
+
+
+    width: 38px;
+    color: rgb(240, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid red;
+    cursor: pointer;
+    border-radius: 3px;
+    height: 38px;
+    outline-style: none;
+}
+
+.khoi3 button:hover {
+    background-color: rgb(253, 0, 0);
+    color: rgb(255, 255, 255);
+    outline-style: none;
+
+}
+
+.img-container {
+
+    height: 250px;
+    /** Chiều cao tự động **/
+    margin: 10px auto;
+    /** Cách trên dưới 10px và nằm giữa **/
+    overflow: hidden;
+    /** DÒNG BẮT BUỘC CÓ **/
+    position: relative;
+    width: 300px;
+    /** Chiều rộng vùng chứa **/
+    float: left;
+    margin: 10px;
+    padding: 0;
+}
+
+.img-container img {
+    width: 300px;
+    /** Hình ảnh rộng 100% so với vùng chứa **/
+    transition: all 1s;
+    /** Tạo độ mượt **/
+}
+
+.img-container:hover img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.video__slide > video{
+   
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+} 
+
+
+@media (max-width: 767.98px) {
+
+    body {
+
+        color: yellow;
+
+    }
+
+}
